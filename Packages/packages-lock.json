@@ -37,11 +37,11 @@
       "depth": 2,
       "source": "registry",
       "dependencies": {
-        "com.unity.burst": "1.8.4",
         "com.unity.2d.sprite": "1.0.0",
         "com.unity.mathematics": "1.1.0",
+        "com.unity.modules.uielements": "1.0.0",
         "com.unity.modules.animation": "1.0.0",
-        "com.unity.modules.uielements": "1.0.0"
+        "com.unity.burst": "1.8.4"
       },
       "url": "https://packages.unity.com"
     },
@@ -73,8 +73,8 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.2d.common": "9.0.7",
         "com.unity.mathematics": "1.1.0",
+        "com.unity.2d.common": "9.0.7",
         "com.unity.modules.physics2d": "1.0.0"
       },
       "url": "https://packages.unity.com"
@@ -93,8 +93,8 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.2d.tilemap": "1.0.0",
         "com.unity.modules.tilemap": "1.0.0",
+        "com.unity.2d.tilemap": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
@@ -118,7 +118,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
-      "version": "1.8.24",
+      "version": "1.8.23",
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -150,8 +150,8 @@
       "source": "registry",
       "dependencies": {
         "com.unity.burst": "1.8.17",
-        "com.unity.test-framework": "1.4.5",
         "com.unity.nuget.mono-cecil": "1.11.4",
+        "com.unity.test-framework": "1.4.5",
         "com.unity.test-framework.performance": "3.0.3"
       },
       "url": "https://packages.unity.com"
@@ -196,8 +196,8 @@
       "source": "registry",
       "dependencies": {
         "com.unity.timeline": "1.0.0",
-        "com.unity.modules.cloth": "1.0.0",
-        "com.unity.modules.unityanalytics": "1.0.0"
+        "com.unity.modules.unityanalytics": "1.0.0",
+        "com.unity.modules.cloth": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -326,10 +326,10 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.ugui": "1.0.0",
-        "com.unity.recorder": "2.5.5",
         "com.unity.timeline": "1.6.3",
-        "com.unity.settings-manager": "1.0.3"
+        "com.unity.recorder": "2.5.5",
+        "com.unity.settings-manager": "1.0.3",
+        "com.unity.ugui": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -354,9 +354,9 @@
       "depth": 2,
       "source": "registry",
       "dependencies": {
+        "com.unity.settings-manager": "1.0.3",
         "com.unity.mathematics": "1.2.1",
-        "com.unity.modules.imgui": "1.0.0",
-        "com.unity.settings-manager": "1.0.3"
+        "com.unity.modules.imgui": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
