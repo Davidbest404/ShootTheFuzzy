@@ -4,31 +4,17 @@ Shader "FX/SeeThrough" {
         _MainTex ("Base (RGB)", 2D) = "white" {}
         _OccludeColor ("Occlusion Color", Color) = (0,0,1,1)
     }
+
     SubShader {
         Tags {"Queue"="Geometry+5"}
-        //occluded pass
+        // Основной проход: обработчик рендеринга, когда объект полностью скрыт
         Pass {
-            ZWrite Off
-            Blend One Zero
-            ZTest Greater
-            Color [_OccludeColor]
-        }
-        //Vertex lights
-        Pass {
-            Tags {"LightMode" = "Vertex"}
-            ZWrite On
-            Lighting On
-            SeparateSpecular On
-            Material {
-                Diffuse [_Color]
-                Ambient [_Color]
-                //Emission [_PPLAmbient]
-            }
-            SetTexture [_MainTex] {
-                ConstantColor [_Color]
-                Combine texture * primary DOUBLE, texture * constant
-            }
+            ZWrite Off              // Запись в буфер глубины отключена
+            ZTest Greater           // Проверять глубину: показывать только если закрылся
+            Cull Back               // Исключаем лицевые полигоны (видим только заднюю сторону)
+            Blend One Zero           // Простое наложение цветов
+            Color [_OccludeColor]   // Заданный цвет объекта за препятствием
         }
     }
-FallBack "Diffuse", 1
+    FallBack "Hidden"
 }
