@@ -4,27 +4,36 @@ using UnityEngine;
 
 public class LookAtCursor : MonoBehaviour
 {
-    // Основная камера, смотрящая сверху вниз
+    // Камера, смотрящая сверху вниз
     public Camera CameraMain;
 
-    // Контейнер тела персонажа (родительский объект)
+    // Родительский объект тела персонажа
     public Transform CharacterBody;
+
+    // Голову персонажа (для вертикального вращения)
+    public Transform Head;
 
     // Скорость горизонтального вращения
     public float hRotationSpeed = 10f;
 
-    // Маска слоёв для фильтра (если нужно отбрасывать некоторые слои)
+    // Скорость вращения головы
+    public float headRotationSpeed = 8f;
+
+    // Ограничения угла наклона головы
+    public float minAngle = -60f; // Наклон вверх
+    public float maxAngle = 60f;  // Наклон вниз
+
+    // Масштаб слоев для фильтров
     [SerializeField]
     private LayerMask layerMask;
 
     void Update()
     {
-        HorizontalRotation();
+        HorizontalRotation();   // Горизонтальное вращение тела
+        VerticalRotation();     // Вертикальное вращение головы
     }
 
-    /// <summary>
-    /// Осуществляет горизонтальный поворот персонажа к точке попадания луча
-    /// </summary>
+    /// Осущестляет горизонтальный поворот тела персонажа к точке попадания луча
     void HorizontalRotation()
     {
         Ray ray = CameraMain.ScreenPointToRay(Input.mousePosition);
@@ -32,22 +41,52 @@ public class LookAtCursor : MonoBehaviour
 
         if (Physics.Raycast(ray, out hitInfo, Mathf.Infinity, layerMask))
         {
-            // Определяем точку удара луча
+            // Направление взгляда по горизонтали
             Vector3 aimDirection = hitInfo.point - CharacterBody.position;
-            aimDirection.y = 0; // Только поворот по горизонтали
+            aimDirection.y = 0; // Очищаем вертикальную компоненту
             aimDirection.Normalize();
 
-            // Создаем целевую ориентацию
+            // Цельная ориентация
             Quaternion targetRotation = Quaternion.LookRotation(aimDirection, Vector3.up);
 
-            // Плавно поворачиваем тело персонажа
-            CharacterBody.rotation = Quaternion.RotateTowards(CharacterBody.rotation, targetRotation, hRotationSpeed * Time.deltaTime);
+            // Поворачиваем тело персонажа
+            CharacterBody.rotation = Quaternion.RotateTowards(
+                CharacterBody.rotation,
+                targetRotation,
+                hRotationSpeed * Time.deltaTime
+            );
         }
     }
 
-    /// <summary>
-    /// Метод для отображения линий прицеливания в режиме редактирования
-    /// </summary>
+    /// Осуществляет точное вертикальное вращение головы персонажа
+    void VerticalRotation()
+    {
+        Ray ray = CameraMain.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hitInfo;
+
+        if (Physics.Raycast(ray, out hitInfo, Mathf.Infinity, layerMask))
+        {
+            // Вектор направления взгляда от головы к точке попадания
+            Vector3 lookDir = hitInfo.point - Head.position;
+            lookDir.Normalize();
+
+            // Рассчитываем угол наклона головы относительно горизонтали
+            float angle = Mathf.Atan2(lookDir.y, lookDir.magnitude) * Mathf.Rad2Deg;
+            angle = Mathf.Clamp(angle, minAngle, maxAngle); // Ограничиваем угол
+
+            // Преобразуем угол в правильную ориентацию
+            Quaternion targetRot = Quaternion.Euler(-angle, 0, 0);
+
+            // Поворачиваем голову по нужной оси (локально X)
+            Head.localRotation = Quaternion.RotateTowards(
+                Head.localRotation,
+                targetRot,
+                headRotationSpeed * Time.deltaTime
+            );
+        }
+    }
+
+    /// Метод для визуализации направлений в редакторе
     void OnDrawGizmos()
     {
         Ray ray = CameraMain.ScreenPointToRay(Input.mousePosition);

@@ -25,11 +25,13 @@ public class SquareRawImage : MonoBehaviour
     void AdjustRawImageToSquare()
     {
         // Получаем минимальный размер экрана (ширину или высоту)
+        float maxDimension = Mathf.Max(canvasRect.rect.width, canvasRect.rect.height);
         float minDimension = Mathf.Min(canvasRect.rect.width, canvasRect.rect.height);
 
+        maxDimension -= (maxDimension / 100) * BordersPercent;
         minDimension -= (minDimension / 100) * BordersPercent;
 
         // Задаваем квадратные размеры RawImage
-        rawImage.rectTransform.sizeDelta = new Vector2(minDimension, minDimension);
+        rawImage.rectTransform.sizeDelta = new Vector2(maxDimension, minDimension);
     }
 }
