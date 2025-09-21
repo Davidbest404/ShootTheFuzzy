@@ -1727,6 +1727,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8994641321800414394, guid: 310adca9bd1c4bf4d818a728c939b6ba, type: 3}
+      propertyPath: isTimerOn
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994641321800414394, guid: 310adca9bd1c4bf4d818a728c939b6ba, type: 3}
       propertyPath: endColor.a
       value: 1
       objectReference: {fileID: 0}
