@@ -6,39 +6,50 @@ using UnityEngine;
 
 public class SmoothColorTransition : MonoBehaviour
 {
+    public bool isTransitioning = true;
+    public bool isFirst = true;
     public Light targetLight;       // Цель света, цвет которого меняется
     public Color startColor;          // Первый цвет
     public Color endColor;          // Последний цвет
-    public List<Color> Colors = new List<Color>();        // цвета
+    public List<Color> startColors = new List<Color>();        // цвета
+    public Color midColor;        // цвета
+    public List<Color> endColors = new List<Color>();        // цвета
     public Color curColor;          // Текущий цвет
     public float transitionTime = 5f; // Продолжительность изменения цвета (таймер)
     public float passedTime = 0f;
-    public bool isTransitioning = true;
-    public bool isFirst = true;
+    private float Sec;
 
-    void Update()
+    public bool Turn;
+    public int Progress;
+
+    private void Start()
     {
-        StartCoroutine(Timer());
+        AddColors();
     }
 
-    IEnumerator Timer()
+    public void Update()
     {
-        while (isTransitioning)
+        Sec += Time.deltaTime;
+
+        if (isTransitioning)
         {
-            if (isFirst)
+            while (Sec >= 1f)
             {
-                StartTimer();
+                if (isFirst)
+                {
+                    StartTimer();
+                }
+                else if (passedTime >= transitionTime)
+                {
+                    FinishTimer();
+                }
+                else
+                {
+                    WorkingTimer();
+                }
+                Sec -= 1f;
+                passedTime++;
             }
-            else if (passedTime == transitionTime)
-            {
-                FinishTimer();
-            }
-            else
-            {
-                WorkingTimer();
-            }
-            yield return new WaitForSeconds(1f); // Пауза на одну секунду
-            passedTime += 1f;
         }
     }
 
@@ -51,7 +62,10 @@ public class SmoothColorTransition : MonoBehaviour
 
     public void WorkingTimer()
     {
-        
+        if (Turn)
+        {
+
+        }
     }
 
     public void FinishTimer()
@@ -61,25 +75,43 @@ public class SmoothColorTransition : MonoBehaviour
         isTransitioning = false;
     }
 
-    public void AddColors()
+    public void AddColors()         //  ---------
     {
-        transitionTime -= 2;
-        Color c = Color.black;
-        for (float i = 0; i < transitionTime; i+=1)
+        midColor = Color.Lerp(startColor, endColor, 0.5f);
+
+        if (transitionTime % 2 == 0)
         {
-            if (i == 0)
+            for (int i = 0; i < (transitionTime - 2) / 2; i++)
             {
-                c = Color.Lerp(startColor, endColor, 0.5f);
+                startColors.Add(startColor);
             }
-            else if (i % 2 == 0)
-            {
 
-            }
-            else if (i % 2 != 1)
+            for (int i = 0; i < (transitionTime - 2) / 2; i++)
             {
-
+                startColors.Add(endColor);
             }
-            Colors[(int)i] = c;
+
+            Progress = startColors.Count + endColors.Count;
+        }
+        else
+        {
+            for (int i = 0; i < (transitionTime - 3) / 2; i++)
+            {
+                startColors.Add(startColor);
+            }
+
+            for (int i = 0; i < (transitionTime - 3) / 2; i++)
+            {
+                startColors.Add(endColor);
+            }
+
+            Progress = startColors.Count + endColors.Count + 1;
+        }
+        //  ---------
+        Color c = Color.white;
+        for (int i = 0; i < transitionTime - 2; i++)
+        {
+
         }
     }
 }
