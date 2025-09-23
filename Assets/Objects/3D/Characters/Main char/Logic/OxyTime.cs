@@ -10,17 +10,17 @@ public class SmoothColorTransition : MonoBehaviour
 {
     public bool isTransitioning = true;
     public bool isFirst = true;
-    public Light targetLight;       // Цель света, цвет которого меняется
+    public float transitionTime = 5f; // Продолжительность изменения цвета (таймер)
+    public int passedTime = 0;
+    private float Sec;
+
+    public int Progress = 0;
+
+    public Material targetMat;       // Цель света, цвет которого меняется
     public Color startColor;          // Первый цвет
     public Color endColor;          // Последний цвет
     public Color curColor;          // Текущий цвет
     public List<Color> Colors = new List<Color>();        // цвета
-    public float transitionTime = 5f; // Продолжительность изменения цвета (таймер)
-    public float passedTime = 0f;
-    private float Sec;
-
-    public bool Turn;
-    public int Progress;
 
     private void Start()
     {
@@ -38,15 +38,12 @@ public class SmoothColorTransition : MonoBehaviour
             {
                 if (isFirst)
                 {
-                    StartTimer();
+                    WorkingTimer();
                 }
                 else if (passedTime >= transitionTime)
                 {
-                    FinishTimer();
-                }
-                else
-                {
-                    WorkingTimer();
+                    isTransitioning = false;
+                    Progress = 0;
                 }
                 Sec -= 1f;
                 passedTime++;
@@ -54,26 +51,11 @@ public class SmoothColorTransition : MonoBehaviour
         }
     }
 
-    public void StartTimer()
-    {
-        targetLight.color = startColor;
-        curColor = targetLight.color;
-        isFirst = false;
-    }
-
     public void WorkingTimer()
     {
-        if (Turn)
-        {
-
-        }
-    }
-
-    public void FinishTimer()
-    {
-        targetLight.color = endColor;
-        curColor = targetLight.color;
-        isTransitioning = false;
+        targetMat.SetColor("_EmissionColor", Colors[Progress]);
+        curColor = targetMat.GetColor("_EmissionColor");
+        Progress = passedTime;
     }
 
     public void AddColors()
