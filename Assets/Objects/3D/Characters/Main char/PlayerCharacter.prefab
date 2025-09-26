@@ -391,13 +391,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTransitioning: 1
-  isFirst: 1
-  transitionTime: 10
+  transitionTime: 30
   passedTime: 0
+  Sec: 0
   Progress: 0
   targetMat: {fileID: 2100000, guid: 29742e18ad3c1c44c99f2eb9f11b3443, type: 2}
-  startColor: {r: 0, g: 1, b: 0, a: 0}
-  endColor: {r: 1, g: 0, b: 0, a: 0}
+  startColor: {r: 0, g: 1, b: 0, a: 1}
+  endColor: {r: 1, g: 0, b: 0, a: 1}
   curColor: {r: 0, g: 0, b: 0, a: 0}
   Colors: []
 --- !u!1 &5317391262038556315
