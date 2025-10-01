@@ -253,7 +253,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cc47a83e22ef9674ba628cbbdc561759, type: 2}
+  - {fileID: 2100000, guid: e96645c6d1c487d4f8ecebf9da225919, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -392,14 +392,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isTransitioning: 1
   transitionTime: 30
-  passedTime: 0
   Sec: 0
+  passedTime: 0
   Progress: 0
   targetMat: {fileID: 2100000, guid: 29742e18ad3c1c44c99f2eb9f11b3443, type: 2}
   startColor: {r: 0, g: 1, b: 0, a: 1}
   endColor: {r: 1, g: 0, b: 0, a: 1}
   curColor: {r: 0, g: 0, b: 0, a: 0}
-  Colors: []
 --- !u!1 &5317391262038556315
 GameObject:
   m_ObjectHideFlags: 0

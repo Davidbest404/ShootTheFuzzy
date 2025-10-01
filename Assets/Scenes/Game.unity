@@ -1179,6 +1179,14 @@ PrefabInstance:
       propertyPath: timeBeforeDeath
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8027260160990058948, guid: 310adca9bd1c4bf4d818a728c939b6ba, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.000000028388474
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027260160990058948, guid: 310adca9bd1c4bf4d818a728c939b6ba, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0000015028054
+      objectReference: {fileID: 0}
     - target: {fileID: 8994641321800414394, guid: 310adca9bd1c4bf4d818a728c939b6ba, type: 3}
       propertyPath: Turn
       value: 0
