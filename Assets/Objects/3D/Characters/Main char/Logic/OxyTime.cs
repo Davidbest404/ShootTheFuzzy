@@ -19,7 +19,9 @@ public class OxyTime : MonoBehaviour
     [SerializeField] private Color startColor;          // Первый цвет
     [SerializeField] private Color endColor;          // Последний цвет
     [SerializeField] private Color curColor;          // Текущий цвет
-    
+
+    [SerializeField] public CorpsesSpawner Corpse;
+
     public void Update()
     {
         if (isTransitioning)
@@ -32,8 +34,16 @@ public class OxyTime : MonoBehaviour
 
                 if (Progress >= transitionTime)
                 {
-                    isTransitioning = false;
+                    float normalizedTime = Progress / transitionTime;
+                    normalizedTime = Mathf.Clamp01(normalizedTime);
+
+                    targetMat.SetColor("_EmissionColor", startColor);
+                    curColor = targetMat.GetColor("_EmissionColor");
+
                     passedTime = 0;
+                    Progress = 0;
+
+                    Corpse.SpawnAndMove();
                 }
                 Sec -= 1f;
                 Progress++;
@@ -43,10 +53,7 @@ public class OxyTime : MonoBehaviour
 
     public void WorkingTimer()
     {
-        // Рассчитываем долю пройденного времени
         float normalizedTime = Progress / transitionTime;
-
-        // Ограничиваем нормальный коэффициент в пределах от 0 до 1
         normalizedTime = Mathf.Clamp01(normalizedTime);
 
         targetMat.SetColor("_EmissionColor", Color.Lerp(startColor, endColor, normalizedTime));

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 966279413136891615}
   - component: {fileID: 3189868622455422360}
   - component: {fileID: 4858388152160854556}
+  - component: {fileID: 6981277522812539759}
   m_Layer: 7
   m_Name: Cube.003
   m_TagString: Enemy
@@ -86,6 +87,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &6981277522812539759
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4655368875053985787}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.020732952
+  m_Height: 0.11133893
+  m_Direction: 1
+  m_Center: {x: 0.0000018000603, y: 0.018480707, z: -0.0045919972}
 --- !u!1 &7282531756509924053
 GameObject:
   m_ObjectHideFlags: 0
@@ -97,6 +121,7 @@ GameObject:
   - component: {fileID: 3926113554453414771}
   - component: {fileID: 1367244901360688470}
   - component: {fileID: 4495266354014988554}
+  - component: {fileID: 4954358549176511565}
   m_Layer: 0
   m_Name: Enemy_armored_unit
   m_TagString: Untagged
@@ -161,3 +186,30 @@ MonoBehaviour:
   stopDistance: 2
   updateInterval: 0.2
   navMeshAgent: {fileID: 0}
+--- !u!54 &4954358549176511565
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7282531756509924053}
+  serializedVersion: 4
+  m_Mass: 15
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
