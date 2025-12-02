@@ -1062,22 +1062,6 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 2884877735095870837, guid: 310adca9bd1c4bf4d818a728c939b6ba, type: 3}
-      propertyPath: m_Height
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2884877735095870837, guid: 310adca9bd1c4bf4d818a728c939b6ba, type: 3}
-      propertyPath: m_Radius
-      value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 2884877735095870837, guid: 310adca9bd1c4bf4d818a728c939b6ba, type: 3}
-      propertyPath: m_Center.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2884877735095870837, guid: 310adca9bd1c4bf4d818a728c939b6ba, type: 3}
-      propertyPath: m_Center.y
-      value: -0.05
-      objectReference: {fileID: 0}
     - target: {fileID: 2915839130651232130, guid: 310adca9bd1c4bf4d818a728c939b6ba, type: 3}
       propertyPath: m_Layer
       value: 3
@@ -1301,6 +1285,10 @@ PrefabInstance:
     - target: {fileID: 8499414665513816384, guid: 310adca9bd1c4bf4d818a728c939b6ba, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499414665513816384, guid: 310adca9bd1c4bf4d818a728c939b6ba, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8649257829919304072, guid: 310adca9bd1c4bf4d818a728c939b6ba, type: 3}
       propertyPath: m_Layer
