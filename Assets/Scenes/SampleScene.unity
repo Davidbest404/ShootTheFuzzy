@@ -119,85 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &93429601
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 93429603}
-  - component: {fileID: 93429602}
-  m_Layer: 0
-  m_Name: FoW
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &93429602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 93429601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5de54c084f472845b61ee9a97cb8a48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fogRevealers:
-  - revealerTransform: {fileID: 8090643523187633047}
-    sightRange: 0
-    updateOnlyOnMove: 0
-    lastSeenAt: {x: 0, y: 0}
-  - revealerTransform: {fileID: 2120676318}
-    sightRange: 1
-    updateOnlyOnMove: 0
-    lastSeenAt: {x: 0, y: 0}
-  levelMidPoint: {fileID: 727370124}
-  FogRefreshRate: 10
-  fogPlaneHeight: 0
-  fogPlaneMaterial: {fileID: 2100000, guid: 36b93ac6fcf129c449491654e397fe4a, type: 2}
-  fogColor: {r: 0.019607844, g: 0.05882353, b: 0.09803922, a: 1}
-  fogPlaneAlpha: 1
-  fogLerpSpeed: 2.5
-  keepRevealedTiles: 0
-  revealedTileOpacity: 0.5
-  fogPlaneTextureLerpTarget: {fileID: 0}
-  fogPlaneTextureLerpBuffer: {fileID: 0}
-  LevelDataToLoad: {fileID: 0}
-  saveDataOnScan: 1
-  levelNameToSave: Default
-  levelDimensionX: 31
-  levelDimensionY: 31
-  unitScale: 0.5
-  scanSpacingPerUnit: 0.25
-  rayStartHeight: 5
-  rayMaxDistance: 10
-  obstacleLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  ignoreTriggers: 1
-  drawGizmos: 0
-  LogOutOfRange: 0
---- !u!4 &93429603
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 93429601}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.70948, y: -20.617113, z: 23.919367}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &308590375 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1518185071657600516, guid: f03b718c65c1d0d4992f76056be7d184, type: 3}
@@ -1410,6 +1331,75 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e016f57d86b2f7418a854eb3808691b, type: 3}
+--- !u!1001 &5799569497124832158
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 466214926320659107, guid: 0bf24892768337d429fc6d6acc7227d2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.70948
+      objectReference: {fileID: 0}
+    - target: {fileID: 466214926320659107, guid: 0bf24892768337d429fc6d6acc7227d2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -20.617113
+      objectReference: {fileID: 0}
+    - target: {fileID: 466214926320659107, guid: 0bf24892768337d429fc6d6acc7227d2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.919367
+      objectReference: {fileID: 0}
+    - target: {fileID: 466214926320659107, guid: 0bf24892768337d429fc6d6acc7227d2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 466214926320659107, guid: 0bf24892768337d429fc6d6acc7227d2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 466214926320659107, guid: 0bf24892768337d429fc6d6acc7227d2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 466214926320659107, guid: 0bf24892768337d429fc6d6acc7227d2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 466214926320659107, guid: 0bf24892768337d429fc6d6acc7227d2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 466214926320659107, guid: 0bf24892768337d429fc6d6acc7227d2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 466214926320659107, guid: 0bf24892768337d429fc6d6acc7227d2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6429975877414053549, guid: 0bf24892768337d429fc6d6acc7227d2, type: 3}
+      propertyPath: m_Name
+      value: FoW
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424208703581169977, guid: 0bf24892768337d429fc6d6acc7227d2, type: 3}
+      propertyPath: levelMidPoint
+      value: 
+      objectReference: {fileID: 727370124}
+    - target: {fileID: 7424208703581169977, guid: 0bf24892768337d429fc6d6acc7227d2, type: 3}
+      propertyPath: fogRevealers.Array.data[0].revealerTransform
+      value: 
+      objectReference: {fileID: 8090643523187633047}
+    - target: {fileID: 7424208703581169977, guid: 0bf24892768337d429fc6d6acc7227d2, type: 3}
+      propertyPath: fogRevealers.Array.data[1].revealerTransform
+      value: 
+      objectReference: {fileID: 2120676318}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0bf24892768337d429fc6d6acc7227d2, type: 3}
 --- !u!1001 &6745872049081061784
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2067,6 +2057,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boom!
       objectReference: {fileID: 0}
+    - target: {fileID: 3166615608761303128, guid: c43e09830b0092843aa36538f22afac3, type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3188496499134396461, guid: c43e09830b0092843aa36538f22afac3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.836
@@ -2306,4 +2300,4 @@ SceneRoots:
   - {fileID: 8431292914336427898}
   - {fileID: 1417989076}
   - {fileID: 6798020556774540269}
-  - {fileID: 93429603}
+  - {fileID: 5799569497124832158}
