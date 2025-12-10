@@ -119,33 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &2487919 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3662536502114468780, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
-  m_PrefabInstance: {fileID: 3927241419860594990}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &2487923
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2487919}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d716dec68409bc04b97e3d3e8d668087, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &58447879 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3962199621961148905, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
@@ -267,6 +240,53 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f03b718c65c1d0d4992f76056be7d184, type: 3}
+--- !u!4 &862306565 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7777460011040683781, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+  m_PrefabInstance: {fileID: 3927241419860594990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &877447629 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2436517202927307683, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+  m_PrefabInstance: {fileID: 1177455499795919184}
+  m_PrefabAsset: {fileID: 0}
+--- !u!120 &877447630 stripped
+LineRenderer:
+  m_CorrespondingSourceObject: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+  m_PrefabInstance: {fileID: 1177455499795919184}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &937191301 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5454246301367906244, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+  m_PrefabInstance: {fileID: 3927241419860594990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &937191306
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937191301}
+  serializedVersion: 4
+  m_Mass: 5
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1066665759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -449,6 +469,70 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ded06776a66bb5341b0ba3ada9d0607c, type: 3}
+--- !u!1 &1189642571 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2426052522630804479, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+  m_PrefabInstance: {fileID: 3927241419860594990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1189642576
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189642571}
+  serializedVersion: 4
+  m_Mass: 5
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1 &1298710658 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cfe4321562aba9649b6cfe697c3823a3, type: 3}
+  m_PrefabInstance: {fileID: 1590877303}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1298710659 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cfe4321562aba9649b6cfe697c3823a3, type: 3}
+  m_PrefabInstance: {fileID: 1590877303}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1298710660
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298710658}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2013f4e3a5bc07447adb07325b0abc9d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1369413331
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,6 +633,198 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 2551539608580072577, guid: ded06776a66bb5341b0ba3ada9d0607c, type: 3}
   m_PrefabInstance: {fileID: 1111155726}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1534562022 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2650e335f52547541ada2cbe2cc47a76, type: 3}
+  m_PrefabInstance: {fileID: 2012032178}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1534562023 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2650e335f52547541ada2cbe2cc47a76, type: 3}
+  m_PrefabInstance: {fileID: 2012032178}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1534562024
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534562022}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1a046d07bf400d8499e22133e46be96c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &1590877303
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 862306565}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: cfe4321562aba9649b6cfe697c3823a3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.337194
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cfe4321562aba9649b6cfe697c3823a3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.367737
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cfe4321562aba9649b6cfe697c3823a3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 29.460348
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cfe4321562aba9649b6cfe697c3823a3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.0000000754979
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cfe4321562aba9649b6cfe697c3823a3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cfe4321562aba9649b6cfe697c3823a3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 9.078113e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cfe4321562aba9649b6cfe697c3823a3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000008742278
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cfe4321562aba9649b6cfe697c3823a3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cfe4321562aba9649b6cfe697c3823a3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cfe4321562aba9649b6cfe697c3823a3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cfe4321562aba9649b6cfe697c3823a3, type: 3}
+      propertyPath: m_Name
+      value: "\u0442\u0435\u043A\u0441\u0442"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cfe4321562aba9649b6cfe697c3823a3, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cfe4321562aba9649b6cfe697c3823a3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1298710660}
+  m_SourcePrefab: {fileID: 100100000, guid: cfe4321562aba9649b6cfe697c3823a3, type: 3}
+--- !u!1001 &2012032178
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 862306565}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2650e335f52547541ada2cbe2cc47a76, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2650e335f52547541ada2cbe2cc47a76, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2650e335f52547541ada2cbe2cc47a76, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2650e335f52547541ada2cbe2cc47a76, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2650e335f52547541ada2cbe2cc47a76, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2650e335f52547541ada2cbe2cc47a76, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2650e335f52547541ada2cbe2cc47a76, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2650e335f52547541ada2cbe2cc47a76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2650e335f52547541ada2cbe2cc47a76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2650e335f52547541ada2cbe2cc47a76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2650e335f52547541ada2cbe2cc47a76, type: 3}
+      propertyPath: m_Name
+      value: "\u0446\u0438\u043B\u0438\u043D\u0434\u044B (2)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2650e335f52547541ada2cbe2cc47a76, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2650e335f52547541ada2cbe2cc47a76, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1534562024}
+  m_SourcePrefab: {fileID: 100100000, guid: 2650e335f52547541ada2cbe2cc47a76, type: 3}
+--- !u!1 &2127045691 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8218399774127434328, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+  m_PrefabInstance: {fileID: 3927241419860594990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2127045696
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127045691}
+  serializedVersion: 4
+  m_Mass: 5
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1177455499795919184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -557,14 +833,146 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Positions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Positions.Array.data[0].x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Positions.Array.data[0].y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Positions.Array.data[0].z
+      value: -2.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Positions.Array.data[1].x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Positions.Array.data[1].y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Positions.Array.data[1].z
+      value: -1.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Positions.Array.data[2].z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Positions.Array.data[3].z
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Positions.Array.data[4].z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Positions.Array.data[5].z
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Positions.Array.data[6].z
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Positions.Array.data[7].z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Positions.Array.data[8].z
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Positions.Array.data[9].z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].time
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].time
+      value: 0.02342081
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
+      value: 0.0067475536
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].inSlope
+      value: -8.980525
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].inSlope
+      value: -8.980525
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].inWeight
+      value: 0.16800572
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].outSlope
+      value: -8.980525
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].inWeight
+      value: 0.16800572
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].outSlope
+      value: -8.980525
+      objectReference: {fileID: 0}
+    - target: {fileID: 551635548043816900, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].outWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 783881820402906933, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: startPoint
+      value: 
+      objectReference: {fileID: 877447629}
+    - target: {fileID: 783881820402906933, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: beamRenderer
+      value: 
+      objectReference: {fileID: 877447630}
     - target: {fileID: 2389936193216110452, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
       propertyPath: Head
       value: 
       objectReference: {fileID: 58447879}
     - target: {fileID: 2389936193216110452, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: maxAngle
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2389936193216110452, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: minAngle
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2389936193216110452, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
       propertyPath: CameraMain
       value: 
       objectReference: {fileID: 1531571801}
+    - target: {fileID: 2389936193216110452, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: headRotationSpeed
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125972601409418606, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4941969982756670199, guid: 1698f0b02c4c00745bf36770884b801a, type: 3}
       propertyPath: m_Name
       value: PlayerCharacter
@@ -631,393 +1039,2085 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6126754084984008, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 38906210825168025, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 60180204076401660, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
     - target: {fileID: 124975315935365750, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 124975315935365750, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 124975315935365750, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 144636642857988531, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 171754338197327300, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 185991273322368660, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
     - target: {fileID: 208471981692197019, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 208471981692197019, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 208471981692197019, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 210728331739932137, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 237739762247066148, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 283978474555389928, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 296122846054622345, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 321688086587579863, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 321688086587579863, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 321688086587579863, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 350796493019173511, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 350796493019173511, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 350796493019173511, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 370343766527802522, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 408114522068270097, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 408724997787495924, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 449200180880227297, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 472572881370774575, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 506504350028711740, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 522168706153081550, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 522168706153081550, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 522168706153081550, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 528896455878592581, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 529798677613041100, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 539543731386790841, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 575526026499115424, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 629900341021703405, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 647359001006929178, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 651260487912090883, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 651858922263063971, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 651858922263063971, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 651858922263063971, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 656381665382062524, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 674822762599702279, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 706219947763977469, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 706219947763977469, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 706219947763977469, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 709945827040165471, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 710606723399930317, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 724648113468241999, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 737894073255099224, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 784057115990172966, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 784057115990172966, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 784057115990172966, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 800846486808109923, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 800846486808109923, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 800846486808109923, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 831985995859111809, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 832004116746726613, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 835018838838635335, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 852133360110575430, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 875240429390241963, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 882835722058297634, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 892980420176388123, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 892980420176388123, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 892980420176388123, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 923613597976548332, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 932979469691721321, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 942677413055267841, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 942677413055267841, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 942677413055267841, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 944770029001101529, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 946299134133808946, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 946299134133808946, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 946299134133808946, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 997778484064210558, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 998869510320532922, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 999038580128937011, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 1014981841104345707, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 1034315366325425852, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078286478455807364, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127780600720978483, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137757113323148906, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150783023655263686, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 1152270427629611260, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 1196156992742562262, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196156992742562262, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196156992742562262, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 1244843989475728365, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Lightmapping
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1254641599109094883, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 1255182873832547722, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
     - target: {fileID: 1292252208030083623, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1292252208030083623, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1292252208030083623, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294881632053794824, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349935224791941112, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 1350130192151468853, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350130192151468853, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350130192151468853, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 1380051490325022266, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1380051490325022266, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1380051490325022266, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399105705975390719, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 1408652780959786648, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1408652780959786648, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1408652780959786648, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1409519154428589698, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 1458031963262233270, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 1458211171528532594, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 1482228811889681027, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482228811889681027, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482228811889681027, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 1487284309275162840, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487284309275162840, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487284309275162840, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1491778171396722942, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 1545510081484183202, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 1556727207923324672, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1556727207923324672, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1556727207923324672, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1576062012963034041, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 1577082734016426890, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 1583653908712108542, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583653908712108542, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583653908712108542, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 1605500231438665306, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1605500231438665306, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1605500231438665306, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 1628168332334865571, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1628168332334865571, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1628168332334865571, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639367828675565289, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 1650101217497523405, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1650101217497523405, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1650101217497523405, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 1686882481853822051, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1686882481853822051, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1686882481853822051, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713060665905485905, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 1713718622720316865, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 1777009930525282571, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832273721609275973, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 1845581389005018466, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866679616233033262, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
     - target: {fileID: 1910673028804859946, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1910673028804859946, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1910673028804859946, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914095336161703281, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 1920196213170241365, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929624070305982490, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 1936435367538045059, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936435367538045059, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936435367538045059, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950522582041088610, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 1955429389497996375, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1955429389497996375, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1955429389497996375, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 1958400328082080998, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043787080910280182, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 2044462335399262136, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096062219463100734, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 2163912960146514634, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2163912960146514634, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2163912960146514634, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2223889399276064621, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 2253326251956019046, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 2274778141071494785, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 2277784102982167034, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2277784102982167034, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2277784102982167034, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2320646494266624198, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338621607999321915, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 2340942581906840411, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 2416118079931147203, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 2426052522630804479, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 2431187366671615931, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431187366671615931, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431187366671615931, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2470839120476902093, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 2482855831666940201, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2482855831666940201, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2482855831666940201, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 2541568342834609711, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2541568342834609711, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2541568342834609711, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 2555234801840628831, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2555234801840628831, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2555234801840628831, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 2562122365923760102, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2562122365923760102, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2562122365923760102, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2576102995393237530, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579644367726994061, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 2602250315778803286, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2602250315778803286, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2602250315778803286, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2644207714214805395, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 2674860287566239151, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 2692002058982151612, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2692002058982151612, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2692002058982151612, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2698737442461810601, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 2795139384968690007, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2795139384968690007, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2795139384968690007, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2802780961564274424, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806277252428647715, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 2838475116613575252, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2838475116613575252, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2838475116613575252, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876147453711372954, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 2884639753557178495, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 2898351831509149515, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 2905983684960342069, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 2985637794304084921, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 2994928590338338489, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3023408462201018522, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 3023860511374164065, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3023860511374164065, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3023860511374164065, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3025590498371656616, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 3026621396250834926, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3026621396250834926, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3026621396250834926, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3051753398143683316, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3054567325748528060, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3058819121473458510, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 3070556360269804755, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3070556360269804755, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3070556360269804755, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074624160245376174, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3082588591534147647, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 3101331573172141120, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3101331573172141120, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3101331573172141120, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 3166858340522218839, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166858340522218839, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166858340522218839, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3215889363625000178, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 3237909853327861903, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237909853327861903, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237909853327861903, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255744193840557963, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3266298762299114985, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3312632384899103737, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3346340142565143835, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3347755287420896747, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3356802374049021562, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 3386281062207543881, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3386281062207543881, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3386281062207543881, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3389350907834311348, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3411417838588834262, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 3450719457287585971, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450719457287585971, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450719457287585971, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 3487016267546389432, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487016267546389432, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487016267546389432, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498946572371457357, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3536821884874882111, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553595595262697917, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3618388827713411501, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 3619262179469367434, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3619262179469367434, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3619262179469367434, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 3638126454474491623, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3638126454474491623, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3638126454474491623, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675140505906404237, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3717635451401764175, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3737412404836561444, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 3749579077061398909, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749579077061398909, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749579077061398909, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782857003738596756, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 3843608257192226438, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843608257192226438, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843608257192226438, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3859055839379883281, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3869359584364206617, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 3869698743539285341, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3869698743539285341, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3869698743539285341, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887320142658335145, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887928543572677759, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3951179257877233027, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965736595434924662, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040078097360831724, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057044961492681242, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095074955801444026, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 4132736843757973431, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149673269224340933, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 4158452770578919222, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 4160114022182235677, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4160114022182235677, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 4160114022182235677, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 4200629371249300751, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200629371249300751, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200629371249300751, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 4211363410453247468, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4211363410453247468, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 4211363410453247468, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 4238672320302744874, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253270230185692653, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268605144392819366, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 4327942644551694852, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 4365100260024624511, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365100260024624511, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365100260024624511, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 4433253769807793034, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 4434003740835298168, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 4437978017606208211, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 4505579923378682080, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4505579923378682080, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 4505579923378682080, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513344157974740547, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 4527541975933857017, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 4531859253437644081, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
     - target: {fileID: 4538326432957411168, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538326432957411168, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538326432957411168, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 4545370730983805446, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4545370730983805446, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 4545370730983805446, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585192043193943103, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 4588062115103963950, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4588062115103963950, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 4588062115103963950, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 4614644265866019660, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4614644265866019660, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 4614644265866019660, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 4618433592703826010, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 4648365218906827550, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648365218906827550, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648365218906827550, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 4668988408754188773, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668988408754188773, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668988408754188773, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 4669733281113908845, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749195229130944162, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 4775481984948131700, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 4793961966717092749, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806147583041653760, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 4861512227741324871, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 4920322013358653418, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 4921024510080567767, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921024510080567767, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921024510080567767, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 4958675475815965510, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962813490393577679, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 4970212405736317900, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997474421708891853, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 5036674612647130947, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5036674612647130947, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 5036674612647130947, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 5039670970307105015, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5104470363540145343, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160069638642694283, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 5162791667302644470, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162791667302644470, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162791667302644470, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 5163132671690267889, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5184418485962736979, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5211426490516367871, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5241717374824651940, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243547415957561783, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5268976932332390118, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5306121310095225590, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5320835682170470170, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5363076997418519700, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 5385391901794968919, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5385391901794968919, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 5385391901794968919, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 5404053423884373509, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_LocalPosition.y
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5454246301367906244, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
     - target: {fileID: 5469271153883043706, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5469271153883043706, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 5469271153883043706, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 5499200506407664404, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 5530578543986095373, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5530578543986095373, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 5530578543986095373, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563943829259972589, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5617175370145648771, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5632265462683075728, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5639735396852979722, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5660929230416521218, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5675306350514373137, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5769976009275300542, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5782366320341481587, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 5898356442260557098, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5898356442260557098, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 5898356442260557098, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909491626566888095, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916726449663388180, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5966077362649879774, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5973830391336395569, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 6015401618285437019, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6015401618285437019, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 6015401618285437019, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028796098050322636, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038520956328667147, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 6051792752414955357, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051792752414955357, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051792752414955357, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 6068972604808053034, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6068972604808053034, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 6068972604808053034, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 6092834152195219124, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6092834152195219124, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 6092834152195219124, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 6119601672961343916, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119601672961343916, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119601672961343916, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235733449056462218, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 6235805241881725315, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235805241881725315, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235805241881725315, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 6246644434800282772, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6258016591942290208, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6261963942392934701, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6286912066531365141, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6299891886671334806, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 6308164335704585325, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6308164335704585325, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 6308164335704585325, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411683972717141013, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413271979531165521, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6426299061051713580, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6433045437753332846, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6452356093594773073, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6457232715786862700, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6463739254468538906, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509824316992705172, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6546000423915116240, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6554684423657107161, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562730054931139436, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6565189352888608038, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601145552940952566, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6649112611003682214, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 6662369338957485902, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662369338957485902, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662369338957485902, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687075053211195128, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687605754995626285, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6710102841969712790, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6750455143919039396, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6755359756483124397, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 6776728931533686759, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776728931533686759, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776728931533686759, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780623222692527677, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6805142835168319709, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844571198658712571, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6859181027667013732, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6894097954902878084, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 6948679029145950363, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948679029145950363, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948679029145950363, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 6949562634386099565, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 6963908630451252671, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Name
       value: Location
       objectReference: {fileID: 0}
+    - target: {fileID: 6963908630451252671, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7019582741757512590, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7033759289562738228, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
     - target: {fileID: 7055095217994333883, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055095217994333883, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055095217994333883, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7058668372231313541, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061737390257913495, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7065170675038228434, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 7071399564151235139, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7071399564151235139, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7071399564151235139, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 7094982315908835214, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7094982315908835214, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7094982315908835214, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115546828295329488, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 7142578382809967967, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7142578382809967967, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7142578382809967967, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7222005068814154312, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7248568802940698996, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293454022671432646, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293513898005677865, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7294856511043068182, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319590014389382577, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7327154229717616226, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402531440652046999, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7448963086258274381, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7456675185833958055, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487740555953037962, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529204904411516042, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536811415510237195, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540134308891650828, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 7540367638546201730, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540367638546201730, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540367638546201730, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566527858364628775, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 7604174874725689215, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7604174874725689215, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7604174874725689215, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7610253338613610750, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7636014665884675453, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649054613323576004, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7653537780737579973, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7669891356526359508, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 7672854164538976383, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7672854164538976383, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7672854164538976383, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 7672954431922156875, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7672954431922156875, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7672954431922156875, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 7675915247049070787, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7675915247049070787, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7675915247049070787, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 7684073291169024381, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7684073291169024381, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7684073291169024381, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696556556792553386, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765148091869951270, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 7777460011040683781, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_LocalScale.x
@@ -1075,109 +3175,477 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7778025888990475260, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
     - target: {fileID: 7814846626489735070, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814846626489735070, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814846626489735070, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7873186260207361610, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 7911846287387469392, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7911846287387469392, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7911846287387469392, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 7953468308065629784, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953468308065629784, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953468308065629784, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7975713134024927446, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 7983001126504145101, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7983001126504145101, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7983001126504145101, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 7987157629843058448, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7987157629843058448, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7987157629843058448, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8006718068484824874, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 8010963751522818288, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010963751522818288, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010963751522818288, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8097300306319834514, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 8102635907098154468, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8102635907098154468, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8102635907098154468, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 8109536416972908210, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109536416972908210, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109536416972908210, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 8116821497628676843, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116821497628676843, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116821497628676843, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138792819208730424, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 8141716236540333177, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141716236540333177, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141716236540333177, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8145445011531269326, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 8155219843471335524, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164370056079980870, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 8177002419342848540, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 8177902897337191065, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 8191724120982724772, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 8218399774127434328, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 8229345417038158897, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 8294367070385237715, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8294367070385237715, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8294367070385237715, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8334201874529716801, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349920572027559172, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 8351444377882187838, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 8354175770436021725, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8354175770436021725, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8354175770436021725, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 8373130226523231183, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8373130226523231183, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8373130226523231183, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 8398293148957501962, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8398293148957501962, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8398293148957501962, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8504531354399659116, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 8510915960206229613, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8510915960206229613, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8510915960206229613, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523286767570215665, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 8532951538823477639, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8532951538823477639, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8532951538823477639, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 8549607055509657724, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8549607055509657724, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8549607055509657724, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8579469908584161751, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 8601178834704698807, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642502846759733790, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 8650744608448266542, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650744608448266542, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650744608448266542, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8671548097115494227, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 8682105570390755159, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 8700643584728416673, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 8743453881823537766, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 8752493934740998083, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 8756046571261825050, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 8760319071679004812, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774160168646826525, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 8806537645672590905, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8806537645672590905, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8806537645672590905, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845897794654535070, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 8848786476534018730, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 8886408626288371575, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8886408626288371575, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8886408626288371575, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8887291881901242393, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 8897289436900719711, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8897289436900719711, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8897289436900719711, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909896638392901944, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937539010566088082, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 9111418633318448562, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112039940187307322, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     - target: {fileID: 9131438821285785480, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 9131438821285785480, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 9131438821285785480, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 9170668034989502378, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 9170668034989502378, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 9170668034989502378, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 9177101678384288467, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       propertyPath: m_Intensity
-      value: 0.25
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177101678384288467, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_SpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177101678384288467, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 179
+      objectReference: {fileID: 0}
+    - target: {fileID: 9204728015690389616, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 9208153056111958401, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
+      objectReference: {fileID: 0}
+    - target: {fileID: 9217111062798659818, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      propertyPath: m_TagString
+      value: Wall&Decore
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3662536502114468780, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+    - {fileID: 7977850564404055588, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+    - {fileID: 331363169744079174, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+    - {fileID: 3210003432213040106, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7777460011040683781, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      insertIndex: 42
+      addedObject: {fileID: 1534562023}
+    - targetCorrespondingSourceObject: {fileID: 7777460011040683781, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      insertIndex: 170
+      addedObject: {fileID: 1298710659}
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3662536502114468780, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 2426052522630804479, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2487923}
+      addedObject: {fileID: 1189642576}
+    - targetCorrespondingSourceObject: {fileID: 5454246301367906244, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 937191306}
+    - targetCorrespondingSourceObject: {fileID: 8218399774127434328, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2127045696}
   m_SourcePrefab: {fileID: 100100000, guid: 0f22c04f3ddb5c34bbbfcb93415191d4, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

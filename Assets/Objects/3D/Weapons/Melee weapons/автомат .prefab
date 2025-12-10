@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1858307776876043985
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6223910357316116856}
+  m_Layer: 0
+  m_Name: FP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6223910357316116856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858307776876043985}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.70710677, y: -0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0.12, z: -0.004}
+  m_LocalScale: {x: 0.03548808, y: 0.03548808, z: 0.03548808}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1817272672307885757}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2211978390931689814
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58,6 +89,41 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: ff960000cf7467b49a0fc01e0ea83a9f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6223910357316116856}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ff960000cf7467b49a0fc01e0ea83a9f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4908890965505040105}
   m_SourcePrefab: {fileID: 100100000, guid: ff960000cf7467b49a0fc01e0ea83a9f, type: 3}
+--- !u!1 &1329669585332333575 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ff960000cf7467b49a0fc01e0ea83a9f, type: 3}
+  m_PrefabInstance: {fileID: 2211978390931689814}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4908890965505040105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329669585332333575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 479aba18a98280540ab6c5eec1e0ad66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 4936062137915709092, guid: ab5aa32d20778c444812ede9d8ddeb45, type: 3}
+  muzzleFlashPrefab: {fileID: 2957610689407694751, guid: 78a3c40440acf82408715d90a32cb26c, type: 3}
+  firePoint: {fileID: 6223910357316116856}
+  reloadTime: 3
+  fireRate: 0.1
+  maxAmmo: 30
+  spreadAngle: 5
+--- !u!4 &1817272672307885757 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ff960000cf7467b49a0fc01e0ea83a9f, type: 3}
+  m_PrefabInstance: {fileID: 2211978390931689814}
+  m_PrefabAsset: {fileID: 0}
