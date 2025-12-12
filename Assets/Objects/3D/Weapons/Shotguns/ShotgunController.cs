@@ -9,11 +9,13 @@ public class ShotgunController : MonoBehaviour
     public float fireRate = 1f;             // Интервал между выстрелами
     public int projectilesPerShot = 5;      // Число снарядов за выстрел
     public int maxAmmo = 8;                 // Максимальное кол-во патронов
-    public float spreadAngle = 10f;         // Угол рассеивания (градусы)
+    public float BSpeed = 10f;                // Скорость пули
 
     private bool isReloading = false;        // Флаг перезарядки
     private float nextFireTime = 0f;        // Следующее доступное время выстрела
     private int currentAmmo;                // Текущее количество патронов
+
+    private Vector3 randomSpreadDir;
 
     void Start()
     {
@@ -37,8 +39,7 @@ public class ShotgunController : MonoBehaviour
 
             for (int i = 0; i < projectilesPerShot; i++)
             {
-                Vector3 randomSpreadDir = Random.insideUnitSphere * Mathf.Deg2Rad * spreadAngle + transform.forward;
-                FireProjectile(randomSpreadDir);
+                FireProjectile();
             }
 
             currentAmmo--;
@@ -48,10 +49,10 @@ public class ShotgunController : MonoBehaviour
         }
     }
 
-    void FireProjectile(Vector3 direction)
+    void FireProjectile()
     {
-        GameObject bullet = Instantiate(projectilePrefab, firePoint.position, Quaternion.LookRotation(direction));
-        bullet.GetComponent<Rigidbody>().AddForce(direction * 100f);
+        GameObject bullet = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
+        bullet.GetComponent<Rigidbody>().AddForce(bullet.transform.forward * BSpeed);
     }
 
     void Reload()

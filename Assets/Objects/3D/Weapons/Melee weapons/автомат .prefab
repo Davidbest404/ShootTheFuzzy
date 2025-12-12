@@ -24,13 +24,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1858307776876043985}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.70710677, y: -0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
   m_LocalPosition: {x: 0, y: 0.12, z: -0.004}
   m_LocalScale: {x: 0.03548808, y: 0.03548808, z: 0.03548808}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1817272672307885757}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 180}
 --- !u!1001 &2211978390931689814
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -121,7 +121,7 @@ MonoBehaviour:
   reloadTime: 3
   fireRate: 0.1
   maxAmmo: 30
-  spreadAngle: 5
+  BSpeed: 10
 --- !u!4 &1817272672307885757 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ff960000cf7467b49a0fc01e0ea83a9f, type: 3}

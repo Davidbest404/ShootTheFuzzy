@@ -7,6 +7,11 @@ public class Bullet : MonoBehaviour
 
     public float lifetime = 10f; // ѕродолжительность жизни пули в секундах
 
+    void Awake()
+    {
+        Debug.Log(transform.position);
+    }
+
     void Start()
     {
         Invoke("SelfDestruct", lifetime);

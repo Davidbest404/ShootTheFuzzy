@@ -8,7 +8,7 @@ public class AutomaticRifleController : MonoBehaviour
     public float reloadTime = 3f;           // Время перезарядки
     public float fireRate = 0.1f;           // Интервал между выстрелами (быстрая очередь)
     public int maxAmmo = 30;                 // Максимальное кол-во патронов
-    public float spreadAngle = 5f;          // Угол рассеивания (градусы)
+    public float BSpeed = 10f;                // Скорость пули
 
     private bool isReloading = false;        // Флаг перезарядки
     private float nextFireTime = 0f;        // Следующее доступное время выстрела
@@ -34,8 +34,7 @@ public class AutomaticRifleController : MonoBehaviour
             ShowMuzzleFlash();
             nextFireTime = Time.time + fireRate;
 
-            Vector3 randomSpreadDir = Random.insideUnitSphere * Mathf.Deg2Rad * spreadAngle + transform.forward;
-            FireProjectile(randomSpreadDir);
+            FireProjectile();
 
             currentAmmo--;
 
@@ -44,10 +43,10 @@ public class AutomaticRifleController : MonoBehaviour
         }
     }
 
-    void FireProjectile(Vector3 direction)
+    void FireProjectile()
     {
-        GameObject bullet = Instantiate(projectilePrefab, firePoint.position, Quaternion.LookRotation(direction));
-        bullet.GetComponent<Rigidbody>().AddForce(direction * 100f);
+        GameObject bullet = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
+        bullet.GetComponent<Rigidbody>().AddForce(bullet.transform.forward * BSpeed);
     }
 
     void Reload()

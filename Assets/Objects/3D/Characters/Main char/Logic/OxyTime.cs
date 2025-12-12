@@ -20,11 +20,15 @@ public class OxyTime : MonoBehaviour
     [SerializeField] private Color endColor;          // Последний цвет
     [SerializeField] private Color curColor;          // Текущий цвет
 
+    [SerializeField] public GameObject rechargeGameObject; // Объект, который активируется при входе в зону зарядки
+
     [SerializeField] public CorpsesSpawner Corpse;
+
+    private bool inRechargeZone = false; // Флаг, показывающий, находится ли игрок внутри зоны перезарядки
 
     public void Update()
     {
-        if (isTransitioning)
+        if (!inRechargeZone && isTransitioning)
         {
             Sec += Time.deltaTime;
 
@@ -49,6 +53,48 @@ public class OxyTime : MonoBehaviour
                 Progress++;
             }
         }
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Recharge"))
+        {
+            Debug.Log("Player entered the recharge zone.");
+            StopTimer(); // Остановка таймера при входе в зону зарядки
+            rechargeGameObject.SetActive(true); // Активируем нужный объект
+            passedTime--;
+            Progress--;
+        }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("Recharge"))
+        {
+            Debug.Log("Player inside recharge zone.");
+            passedTime--;
+            Progress--;
+        }
+    }
+
+    public void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Recharge"))
+        {
+            Debug.Log("Player exited the recharge zone.");
+            StartTimer(); // Запускаем таймер обратно при выходе из зоны зарядки
+            rechargeGameObject.SetActive(false); // Деактивируем объект
+        }
+    }
+
+    private void StopTimer()
+    {
+        inRechargeZone = true;
+    }
+
+    private void StartTimer()
+    {
+        inRechargeZone = false;
     }
 
     public void WorkingTimer()
